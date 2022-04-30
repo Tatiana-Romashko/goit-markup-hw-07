@@ -7,17 +7,14 @@
     margin-left: 30px;
 }
 .advantages__pic-positioning {
-    width: 270px;
-    height: 120px;
+    @include size(270px, 120px);
     background-color: var(--secondary-background-color);
-    display: flex;
+    @extend %align;
     justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
 }
 .advantages__pic-item {
-    height: 70px;
-    width: 70px;
+    @include size(70px, 70px);
     object-position: center;
 }
 .advantages__item-header {

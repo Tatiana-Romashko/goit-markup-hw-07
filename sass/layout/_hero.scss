@@ -7,11 +7,10 @@
     background-position: center;
 }
 .hero.section {
-    display: flex;
+    @extend %align;
     flex-wrap: wrap;
     padding-top: 200px;
     padding-bottom: 200px;
-    align-items: center;
 }
 .hero__container {
     align-content: center;

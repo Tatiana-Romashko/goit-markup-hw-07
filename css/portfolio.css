@@ -49,6 +49,11 @@
   --backdrop-close-btn-secondary-color: #2196f3;
 }
 
+.button-wrapper, .social-links__link, .header__container, .footer__form-input::placeholder, .footer__modal-button {
+  display: flex;
+  align-items: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -155,9 +160,7 @@ img {
 }
 
 .button-wrapper {
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .portfolio__sorting-btn {
@@ -244,8 +247,8 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   font-family: var(--primary-font-family);
   font-size: 18px;
   font-weight: 400;
@@ -271,11 +274,9 @@ img {
 }
 
 .social-links__link {
-  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
   justify-content: center;
 }
 
@@ -317,8 +318,6 @@ img {
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -505,8 +504,8 @@ img {
 }
 
 .footer__form-input {
-  height: 50px;
   width: 358px;
+  height: 50px;
   padding-left: 16px;
   background-color: var(--footer-background-color);
   border: 1px solid var(--footer-email-input-border-color);
@@ -525,8 +524,6 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
 }
 
@@ -535,9 +532,7 @@ img {
 }
 
 .footer__modal-button {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px 28px;
   margin-left: 12px;
 }

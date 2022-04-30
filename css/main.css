@@ -53,6 +53,11 @@
   margin-bottom: 50px;
 }
 
+.button-wrapper, .backdrop__modal-close-btn, .backdrop__modal-contact-form-checkbox-label, .social-links__link, .header__container, .hero.section, .advantages__pic-positioning, .service__name, .clients__link, .footer__form-input::placeholder, .footer__modal-button {
+  display: flex;
+  align-items: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -159,9 +164,7 @@ img {
 }
 
 .button-wrapper {
-  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .backdrop {
@@ -185,8 +188,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 581px;
   width: 528px;
+  height: 581px;
   background: var(--modal-background-color);
   box-shadow: 0px 1px 3px var(--modal-box-shadow-color-one), 0px 1px 1px var(--modal-box-shadow-color-two), 0px 2px 1px var(--modal-box-shadow-color-three);
   border-radius: 4px;
@@ -204,8 +207,6 @@ img {
   background: var(--modal-background-color);
   fill: var(--backdrop-close-btn-primary-color);
   padding: 0;
-  display: flex;
-  align-items: center;
   justify-content: center;
   cursor: pointer;
   transition-property: fill;
@@ -321,8 +322,6 @@ img {
 }
 
 .backdrop__modal-contact-form-checkbox-label {
-  display: flex;
-  align-items: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -385,11 +384,9 @@ img {
 }
 
 .social-links__link {
-  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
   justify-content: center;
 }
 
@@ -431,8 +428,6 @@ img {
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -541,11 +536,9 @@ img {
 }
 
 .hero.section {
-  display: flex;
   flex-wrap: wrap;
   padding-top: 200px;
   padding-bottom: 200px;
-  align-items: center;
 }
 
 .hero__container {
@@ -583,15 +576,13 @@ img {
   width: 270px;
   height: 120px;
   background-color: var(--secondary-background-color);
-  display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
 }
 
 .advantages__pic-item {
-  height: 70px;
   width: 70px;
+  height: 70px;
   object-position: center;
 }
 
@@ -632,7 +623,6 @@ img {
 
 .service__name {
   position: absolute;
-  display: flex;
   bottom: 0;
   left: 0;
   height: 70px;
@@ -641,7 +631,6 @@ img {
   font-weight: 700;
   line-height: 1.14;
   justify-content: center;
-  align-items: center;
   color: var(--primary-text-color-white);
   background-color: var(--service-background-color);
   text-transform: uppercase;
@@ -696,13 +685,11 @@ img {
 }
 
 .clients__link {
-  display: flex;
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-items-primary-color);
   fill: var(--social-items-primary-color);
   border-radius: 4px;
-  align-items: center;
   justify-content: center;
   transition-property: fill, border-color;
   transition-duration: 250ms;
@@ -792,8 +779,8 @@ img {
 }
 
 .footer__form-input {
-  height: 50px;
   width: 358px;
+  height: 50px;
   padding-left: 16px;
   background-color: var(--footer-background-color);
   border: 1px solid var(--footer-email-input-border-color);
@@ -812,8 +799,6 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
 }
 
@@ -822,9 +807,7 @@ img {
 }
 
 .footer__modal-button {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 10px 28px;
   margin-left: 12px;
 }

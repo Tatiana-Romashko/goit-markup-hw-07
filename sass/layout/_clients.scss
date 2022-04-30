@@ -2,13 +2,11 @@
     display: flex;
 }
 .clients__link {
-    display: flex;
-    width: 170px;
-    height: 92px;
+    @extend %align;
+    @include size(170px, 92px);
     border: 1px solid var(--social-items-primary-color);
     fill: var(--social-items-primary-color);
     border-radius: 4px;
-    align-items: center;
     justify-content: center;
     transition-property: fill,
         border-color;

@@ -38,3 +38,7 @@
     font-weight: $fw;
     line-height: decimal-round($lh / $fs, 2);
 }
+@mixin size($ws,$hs){
+    width: $ws;
+    height: $hs;
+}

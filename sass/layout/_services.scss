@@ -14,14 +14,13 @@
 }
 .service__name {
     position: absolute;
-    display: flex;
+    @extend %align;
     bottom: 0;
     left: 0;
     height: 70px;
     width: 100%;
     @include font(14px, 700, 16px);
     justify-content: center;
-    align-items: center;
     color: var(--primary-text-color-white);
     background-color: var(--service-background-color);
     text-transform: uppercase;

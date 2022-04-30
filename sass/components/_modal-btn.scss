@@ -19,7 +19,6 @@
     }
 }
 .button-wrapper {
-    display: flex;
+    @extend %align;
     justify-content: center;
-    align-items: center;
 }

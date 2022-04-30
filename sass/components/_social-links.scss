@@ -8,11 +8,9 @@
     margin-right: 10px;
 }
 .social-links__link {
-    display: flex;
-    width: 44px;
-    height: 44px;
+    @extend %align;
+    @include size(44px, 44px);
     border-radius: 50%;
-    align-items: center;
     justify-content: center;    
 }
 .social-links__link_theme_light{

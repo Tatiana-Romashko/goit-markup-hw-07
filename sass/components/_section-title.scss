@@ -1,0 +1,6 @@
+.section-title {
+    @include font(36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+   @extend %section-title_positioning;
+}
